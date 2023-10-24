@@ -10,7 +10,7 @@ Imagine a public cloud as a crowded restaurant, and a virtual private cloud as a
 
 A public cloud is shared cloud infrastructure. Multiple customers of the cloud vendor access that same infrastructure, although their data is not shared – just like every person in a restaurant orders from the same kitchen, but they get different dishes. Public cloud service providers include AWS, Google Cloud Platform, and Microsoft Azure, among others.
 
-The technical term for multiple separate customers accessing the same cloud infrastructure is "multitenancy" (see What is multitenancy? to learn more).
+The technical term for multiple separate customers accessing the same cloud infrastructure is ["multitenancy"](https://www.cloudflare.com/en-gb/learning/cloud/what-is-multitenancy/).
 
 A private cloud, however, is single-tenant. A private cloud is a cloud service that is exclusively offered to one organization. A virtual private cloud (VPC) is a private cloud within a public cloud; no one else shares the VPC with the VPC customer.
 
@@ -30,13 +30,13 @@ Some VPC providers offer additional customization with:
 
 - **Network Address Translation (NAT):** This feature matches private IP addresses to a public IP address for connections with the public Internet. With NAT, a public-facing website or application could run in a VPC.
 
-- **BGP route configuration:** Some providers allow customers to customize BGP routing tables for connecting their VPC with their other infrastructure. (Learn how BGP works.)
+- **BGP route configuration:** Some providers allow customers to customize [BGP](https://www.cloudflare.com/en-gb/learning/security/glossary/what-is-bgp/) routing tables for connecting their VPC with their other infrastructure.
 
 ## Advantages of using a VPC
 
 **Scalability:** Because a VPC is hosted by a public cloud provider, customers can add more computing resources on demand.
 
-**Easy hybrid cloud deployment:** It's relatively simple to connect a VPC to a public cloud or to on-premises infrastructure via the VPN. (Learn about hybrid clouds and their advantages.)
+**Easy hybrid cloud deployment:** It's relatively simple to connect a VPC to a public cloud or to on-premises infrastructure via the VPN. (about [hybrid clouds](https://www.cloudflare.com/en-gb/learning/cloud/what-is-hybrid-cloud/))
 
 **Better performance:** Cloud-hosted websites and applications typically perform better than those hosted on local on-premises servers.
 
