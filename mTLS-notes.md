@@ -6,6 +6,8 @@ mTLS is often used in a Zero Trust security framework to verify users, devices, 
 
 mTLS is more often used in business-to-business (B2B) applications, where a limited number of programmatic and homogeneous clients are connecting to specific web services, the operational burden is limited, and security requirements are usually much higher as compared to consumer environments.
 
+mTLS is used in a variety of applications, including: Web Services security, Databases security, API security, Microservices architecture, Service Mesh, IoT Security, Zero Trust Security.
+
 ![TLS](https://www.cloudflare.com/resources/images/slt3lc6tev37/37w1tzGsD4XvYUkQCHbWG8/6fbbb48d0f5077cc2c662a4cc6817b1c/how_tls_works-what_is_mutual_tls.png)
 
 Normally in TLS, the server has a TLS certificate and a public/private key pair, while the client does not. The typical TLS process works like this:
